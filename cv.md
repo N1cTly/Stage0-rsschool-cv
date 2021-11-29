@@ -16,3 +16,10 @@ I have some basic skills in:
 
 I had been working in VScode, Sublime.
 Learning in RSSchool, and wish i will be developer as soon as possible.
+## Code examples
+I don't have a lot of examples of code, but i do some code wars tasks so here the solutions 
+![solution for task Highest and Lowest on code wars](/images/Highest.jpeg)
+![solution for task Get the Middle Character](/images/Get.jpeg)
+![solution for task Absent towel](/images/Absent.jpeg)
+## Experience
+I have no Experience in JS and Frontend developing, but i studied and have a good progress in it.
