@@ -1,0 +1,96 @@
+html {
+  background-color:#E5E5E5;
+}
+
+body {
+  /* Typographic */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #191b1d;
+  line-height: 1.5em;
+
+  /* Visual */
+  width: 80%;
+  height: 80%;
+  background-color: #ffffff;
+  margin: 0px auto 50px;
+  border-top: 5px solid #062156;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 48px 32px;
+}
+
+.name {
+  margin: 48px 48px;
+}
+
+.photo {
+  /* Box-model */
+
+  /* Visual */
+  border-radius: 50em;
+  width: 300px;
+  margin-right: 80px;
+}
+
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.base {
+  padding: 0px 48px;
+  width: 40%;
+}
+
+.aside {
+  width: 40%;
+  padding-right: 48px;
+  padding-left: 24px;
+}
+
+footer {
+  /* Box-model */
+  width: 80%;
+
+
+  /* Typographic */
+  text-align: center;
+
+  /* Visual */
+  margin: auto;
+  margin-bottom: 10px;
+  
+}
+
+.my-github {
+  /* Box-model */
+  display: inline-block;
+
+  /* Typographic */
+  color:black;
+
+  /* Visual */
+  padding: 3px;
+  border-radius: 5px;
+  margin-right: 70px;
+}
+
+.rss-logo {
+  /* Box-model */
+  display: inline-block;
+  
+  /* Typographic */
+  color:black;
+
+  /* Visual */
+  padding: 3px;
+  border-radius: 5px;
+  margin-left: 70px;
+}
+
+a {text-decoration: none;}
+
