@@ -7,22 +7,16 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- 
-    Menu
-    <header class="cover">
-    <aside class="burger-menu-container">
-      <nav>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#code">Code</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#english">English</a></li>
-          <li><a href="#contacts">Contacts</a></li>
-        </ul>
-      </nav>
-    </aside>
-  </header> -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#code">Code</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#english">English</a></li>
+      <li><a href="#contacts">Contacts</a></li>
+    </ul>
+  </nav>
   <header>
     <div class="name">
     <h1>Kochatkov Timofei</h1>
@@ -43,12 +37,33 @@
       </section>
       <section id="code" class="code">
         <h2>Code Examples</h2>
-       <p>
+        <p>
           I don't have a lot of examples of code, but i do some code wars tasks so here the solutions:
         </p>
-        <img src="images/Absent.jpeg" alt="Absent vowel solution"><br>
-        <img src="images/Get.jpeg" alt="Get the middle character solution"><br>
-        <img src="images/Highest.jpeg" alt="Highest and Lowest solution"><br>
+        <h5>Solution for codewars:<br> 6 kyu Multiples of 3 or 5</h5>
+        <pre><code>
+          <span class="b294bb">function</span> <span class="de935f">solution</span>(<span class="de935f">number</span>) {
+            <span class="b294bb">let</span> <span class="de935f">u</span> = <span class="de935f">0</span>;
+            <span class="b294bb">let</span> <span class="de935f">i</span> = <span class="a89b6c5">number</span> - <span class="de935f">1</span>;
+            <span class="b294bb">if</span> (<span class="a89b6c5">number</span> > <span class="de935f">0</span>) {
+              <span class="b294bb">while</span> (<span class="a89b6c5">i</span> !== <span class="de935f">0</span>){
+                <span class="b294bb">if</span> (<span class="a89b6c5">i</span> % <span class="de935f">5</span> === <span class="de935f">0</span>) {
+                  <span class="a89b6c5">u</span> = <span class="a89b6c5">u</span> + <span class="a89b6c5">i</span>;
+                  <span class="a89b6c5">i</span> = <span class="a89b6c5">i</span> - <span class="de935f">1</span>;
+                } <span class="b294bb">else if</span> (<span class="a89b6c5">i</span> % <span class="de935f">3</span> === <span class="de935f">0</span>) {
+                  <span class="a89b6c5">u</span> = <span class="a89b6c5">u</span> + <span class="a89b6c5">i</span>;
+                  <span class="a89b6c5">i</span> = <span class="a89b6c5">i</span> - <span class="de935f">1</span>;
+                } <span class="b294bb">else</span> {
+                  <span class="a89b6c5">i</span> = <span class="a89b6c5">i</span> - <span class="de935f">1</span>;
+                }
+              }
+              <span class="b294bb">return</span> <span class="a89b6c5">u</span>;
+            } <span class="b294bb">else</span> {
+              <span class="b294bb">return</span> <span class="de935f">0</span>;
+            }
+          }
+        </code>
+        </pre>
       </section>
       <section id="experience" class="experience">
         <h2>Experience</h2>
@@ -57,7 +72,7 @@
         </p>
       </section>
     </div>
-    <div class="aside">
+    <aside>
       <section id="contacts" class="contacts">
       <h2>Contacts</h2>
       <ul>
@@ -89,11 +104,11 @@
         I have basic level in English, some test say that my level is B1.
       </p>
       </section>
-    </div>    
+    </aside>    
   </main>
   <footer>
     <a class="my-github" href="https://github.com/N1cTly">My GitHub</a>
-    <time datetime="2021-12-11">11 Декабря 2021</time>
+    <time datetime="2021-12-11">2021</time>
     <a class="rss-logo" href="https://rs.school/js/">
       <img src="https://rs.school/images/rs_school_js.svg" alt="logo_RSShool" width="50" height="25">
     </a>
