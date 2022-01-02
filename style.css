@@ -1,5 +1,6 @@
 html {
   background-color:#E5E5E5;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -9,7 +10,7 @@ body {
   line-height: 1.5em;
 
   /* Visual */
-  width: 80%;
+  width: 1300px;
   height: 80%;
   background-color: #ffffff;
   margin: 0px auto 50px;
@@ -20,6 +21,29 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 48px 48px 32px;
+}
+
+nav {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul a {
+  border-radius: 5px;
+  padding: 7px;
+}
+
+a:hover {
+  color: #ffffff;
+  background-color: #062156;
 }
 
 .name {
@@ -46,7 +70,17 @@ header {
   width: 40%;
 }
 
-.aside {
+pre {
+  background-color: #131414;
+  border-radius: 3px;
+  color: #ffffff;
+}
+
+.b294bb {color: #b294bb;}
+.de935f {color: #de935f;}
+.a89b6c5 {color: #89b6c5;}
+
+aside {
   width: 40%;
   padding-right: 48px;
   padding-left: 24px;
